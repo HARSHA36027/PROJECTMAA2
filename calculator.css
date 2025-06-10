@@ -1,0 +1,154 @@
+body{
+    background-color: slategray;
+}
+.d1{
+    width: 350px;
+    height: 490px;
+    /* margin-top: 60px; */
+    border-radius: 20px;
+    border: 3px solid whitesmoke;
+}
+
+.d2{
+    padding-top: 40px;
+    height: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    color: rgb(52, 37, 37);
+   
+
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    /* background-color: transparent; */
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+    outline: none;
+
+}
+.d3{
+    display: flex;
+    justify-content: space-between;
+    margin-top:60px;
+    height: 60px;
+    
+    
+    }
+    button{
+        border: 0;
+        margin: 10px;
+        width: 60PX;
+        height: 60px;
+        background-color: transparent;
+        border-radius: 50%;
+        font-weight: 900px;
+        font-size: 22px;
+        color: yellow;
+
+    }
+    .d4{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin-top:15px;
+        
+    }
+    .d5{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin-top:15px;
+    }
+    .d6{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin-top:15px;
+        
+    }
+    .d7{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+    margin-top:15px;
+    }
+
+    .k2{
+        color: whitesmoke;
+    }
+    .k3{
+        background-color:  rgb(249, 72, 7);
+    }.k4{
+        background-color: #ffb451;
+        color: whitesmoke;
+    }
+    .k5{
+        background-color: yellowgreen;
+        color: whitesmoke;
+    }
+    .k6{
+        background-color: sienna;
+    }
+    .k7{
+        background-color: rgb(178, 231, 18);
+        color: rgb(231, 19, 72);
+
+    }
+    .k7:hover{
+        transition: 0.5s 0s;
+transform: scale(1.2);
+transform: translate(0px,-20px);
+    }
+    
+    .k6:hover{
+        transition: 0.5s 0s;
+transform: scale(1.2);
+transform: translate(-20px,0px );
+    }
+    
+    .k5:hover{
+        transition: 0.5s 0s;
+transform: scale(1.2);
+transform: translate(0px,10px );
+    }
+    
+    .k4:hover{
+        transition: 0.5s 0s;
+transform: scale(1.2);
+transform: translate(-20px,10px );
+    }
+    .k3:hover{
+        transition: 0.5s 0s;
+     transform:rotate(360deg);
+
+    }
+        .k2:hover{
+transform: scale(1.1);
+    box-shadow: -3px -3px #313131;
+    }
+    .k8:hover{
+        transform: scale(1.1);
+        box-shadow: -3px -3px whitesmoke;
+    }
+    .c1{
+        margin-top:100px ;
+        display: flex;
+        justify-content: center;
+        
+    }
+    @media  only screen and (max-width:1155px) {
+          .c1{
+        display: flex;
+        justify-content: center;
+        width: 1200px;
+        margin-right: 450px;
+        
+    }
+}
+
+    
